@@ -6,14 +6,17 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 30px auto;
 }
 
 header nav ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   list-style: none;
 }
 
-header nav ul li {
-  padding: 0 35px;
+header nav ul li a {
+  margin: 0 35px;
+  color: #3399cc;
 }
