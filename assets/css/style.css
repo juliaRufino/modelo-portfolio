@@ -4,6 +4,7 @@
 /* Components */
 @import "./header.css";
 @import "./button.css";
+@import "./main.css";
 
 /* Reset CSS */
 * {
@@ -17,7 +18,7 @@
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
