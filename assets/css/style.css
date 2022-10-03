@@ -5,6 +5,7 @@
 @import "./header.css";
 @import "./button.css";
 @import "./main.css";
+@import "./footer.css";
 
 /* Reset CSS */
 * {
@@ -15,11 +16,18 @@
   font-family: 'Source Sans Pro', sans-serif;
   vertical-align: baseline;
   text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url('../img/bolha-background.png');
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .container {
-  width: 90%;
-  margin: 30px auto;
+  width: 85%;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
 }
